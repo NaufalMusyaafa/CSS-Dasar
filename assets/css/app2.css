@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline dotted red;
+}
+
+p {
+  text-align: center;
+  /* text-align berfungsi untuk mengatur posisi teks pada elemen */
+
+  font-weight: bold;
+  /* font weight berfungsi untuk mengatur ketebalan teks  */
+
+  line-height: 1;
+  /* line-height berfungsi untuk mengatur jarak antar baris pada teks */
+
+  letter-spacing: 1px;
+  /* letter-spacing berfungsi untuk mengatur jarak antar huruf pada teks */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  /* kedua setting ini dapat digunakan untuk mengubaha warna dan dekorasi default dari browser */
+}
