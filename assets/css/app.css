@@ -1,4 +1,16 @@
 h1 {
   color: blue;
-  font-size: small;
+}
+
+/* properti color berfungsi untuk mengubah warna teks, sedangkan background-color
+berfungsi untuk mengubah warna latar belakang elemen sesuai ukuran border suatu selector (block
+atau inline). */
+button {
+  color: darkviolet;
+  background-color: tan;
+}
+
+p {
+  color: white;
+  background-color: grey;
 }
