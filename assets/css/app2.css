@@ -2,6 +2,9 @@ h1 {
   text-align: center;
   font-weight: 400;
   text-decoration: underline dotted red;
+  font-size: 3em;
+  /* font-size: 30px; */
+  /* ada 2 jenis pengukuran pada css, yaitu pengukuran relative dan absolute. */
 }
 
 p {
