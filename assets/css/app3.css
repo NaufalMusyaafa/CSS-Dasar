@@ -1,0 +1,13 @@
+* {
+  /* * adalah universal selector, yang berarti akan memilih semua elemen di halaman web.
+  Dengan demikian, semua elemen di halaman web akan memiliki properti yang sama.*/
+  background-color: blueviolet;
+}
+
+h1,
+h2,
+h3 {
+  color: yellow;
+  background-color: black;
+  font-size: smaller;
+}
