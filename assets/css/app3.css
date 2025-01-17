@@ -23,3 +23,11 @@ span {
 #list2 {
   color: #e17564;
 }
+
+.mark {
+  /* perbedaan antara id dan class adalah id hanya bisa digunakan
+    pada satu attribute dan tidak boleh sama dengan attribute lain,
+    sedangkan class bisa digunakan berkali-kali dan boleh sama dengan
+    attribute lain. */
+  color: aquamarine;
+}
