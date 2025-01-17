@@ -1,13 +1,25 @@
-* {
-  /* * adalah universal selector, yang berarti akan memilih semua elemen di halaman web.
-  Dengan demikian, semua elemen di halaman web akan memiliki properti yang sama.*/
+/* * {
+   * adalah universal selector, yang berarti akan memilih semua elemen di halaman web.
+  Dengan demikian, semua elemen di halaman web akan memiliki properti yang sama.
   background-color: blueviolet;
-}
+} */
 
+body {
+  background-color: #09122c;
+  color: #872341;
+}
 h1,
 h2,
 h3 {
   color: yellow;
-  background-color: black;
+  background-color: #872341;
   font-size: smaller;
+}
+
+span {
+  color: #be3144;
+}
+
+#list2 {
+  color: #e17564;
 }
