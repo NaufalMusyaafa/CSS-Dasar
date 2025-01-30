@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
     <style>
-        .tips p {
+      /* contoh dari direct decendant selector */
+        .tips > p {
             font-size: 16px;
             color: aqua;
+        }
+        /* contoh dari adjecent sibling selector */
+        a + button {
+            background-color: grey;
         }
     </style>
   </head>
@@ -52,6 +57,7 @@
     </section>
 
     <p>Belajar pemrograman adalah perjalanan yang membutuhkan kesabaran dan konsistensi. Mulailah dengan dasar yang kuat, teruslah berlatih, dan jangan ragu untuk mencari bantuan ketika menemui kendala.</p>
-
+    <a href="#">Link</a>
+    <button>Kirim</button>
   </body>
 </html>
