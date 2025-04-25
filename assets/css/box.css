@@ -18,3 +18,7 @@ div {
   padding-left: 40px; */
   padding: 40px 10px; /*panjang vertikal 40px, horizontal 10px*/
 }
+
+div {
+  margin: 50px 100px; /*jarak vertikal 50px, horizontal 100px*/
+}
