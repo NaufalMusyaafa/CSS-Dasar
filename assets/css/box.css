@@ -4,3 +4,8 @@ div {
   padding: 50px;
   margin: 20px;
 }
+
+div {
+  border-style: solid groove dashed ridge; /* setting style border dari atas kanan bawah kiri */
+  border-width: 10px 20px 5px 10px; /* setting border width dari atas kanan bawah kiri */
+}
