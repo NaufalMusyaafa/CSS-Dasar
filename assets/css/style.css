@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  font-size: 50px;
+  display: flex; /* flexbox berfungsi untuk mengatur tata letak elemen dalam wadah flex.*/
+  flex-direction: column; /* flex direction berfungsi untuk mengatur arah flex item dalam wadah flex.*/
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+}
