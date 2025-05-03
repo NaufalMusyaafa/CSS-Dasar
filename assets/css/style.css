@@ -10,9 +10,10 @@ h1 {
   border: 5px solid #003049;
   font-size: 50px;
   display: flex; /* flexbox berfungsi untuk mengatur tata letak elemen dalam wadah flex.*/
-  flex-direction: row; /* flex direction berfungsi untuk mengatur arah flex item dalam wadah flex.*/
-  justify-content: space-evenly; /* justify content berfungsi untuk mengatur jarak antar flex item dalam wadah flex.*/
-  flex-wrap: wrap-reverse; /*flex wrap berfungsi untuk mengatur apakah flex item dalam wadah flex akan dibungkus atau tidak.*/
+  flex-direction: column; /* flex direction berfungsi untuk mengatur arah flex item dalam wadah flex.*/
+  justify-content: baseline; /* justify content berfungsi untuk mengatur jarak antar flex item dalam wadah flex (vertikal).*/
+  align-items: center; /* align items berfungsi untuk mengatur posisi flex item dalam wadah flex (horizontal).*/
+  flex-wrap: nowrap; /* flex wrap berfungsi untuk mengatur apakah flex item dalam wadah flex akan dibungkus atau tidak. */
 }
 
 #container div {
