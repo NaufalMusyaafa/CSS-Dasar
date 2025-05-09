@@ -22,3 +22,7 @@ div {
 div {
   margin: 50px 100px; /*jarak vertikal 50px, horizontal 100px*/
 }
+
+div :nth-of-type(2) {
+  align-self: ;
+}

@@ -10,13 +10,30 @@ h1 {
   border: 5px solid #003049;
   font-size: 50px;
   display: flex; /* flexbox berfungsi untuk mengatur tata letak elemen dalam wadah flex.*/
-  flex-direction: column; /* flex direction berfungsi untuk mengatur arah flex item dalam wadah flex.*/
-  justify-content: baseline; /* justify content berfungsi untuk mengatur jarak antar flex item dalam wadah flex (vertikal).*/
+  flex-direction: row; /* flex direction berfungsi untuk mengatur arah flex item dalam wadah flex.*/
+  flex-wrap: wrap; /* flex wrap berfungsi untuk mengatur apakah flex item dalam wadah flex akan dibungkus atau tidak. */
+  justify-content: center; /* justify content berfungsi untuk mengatur jarak antar flex item dalam wadah flex (vertikal).*/
   align-items: center; /* align items berfungsi untuk mengatur posisi flex item dalam wadah flex (horizontal).*/
-  flex-wrap: nowrap; /* flex wrap berfungsi untuk mengatur apakah flex item dalam wadah flex akan dibungkus atau tidak. */
+  /* align-content: center; align content berfungsi untuk mengatur jarak antar flex item dalam wadah flex (horizontal). */
 }
 
 #container div {
   width: 200px;
   height: 200px;
+}
+
+div:nth-of-type(1) {
+  align-self: flex-start; /* align self berfungsi untuk mengatur posisi flex item dalam wadah flex tertentu(horizontal). */
+}
+
+div:nth-of-type(2) {
+  align-self: flex-end; /* align self berfungsi untuk mengatur posisi flex item dalam wadah flex tertentu(horizontal). */
+}
+
+div:nth-of-type(3) {
+  align-self: flex-end; /* align self berfungsi untuk mengatur posisi flex item dalam wadah flex tertentu(horizontal). */
+}
+
+div:nth-of-type(5) {
+  align-self: flex-start; /* align self berfungsi untuk mengatur posisi flex item dalam wadah flex tertentu(horizontal). */
 }
