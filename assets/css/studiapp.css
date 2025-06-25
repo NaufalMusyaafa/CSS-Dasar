@@ -181,6 +181,18 @@ body {
   border-bottom: 1px solid #59a4fc;
 }
 
+.img-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 240px;
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
 .pricing-price {
   color: #016ff9;
   display: block;
@@ -213,4 +225,19 @@ body {
 .pricing-button.is-featured:focus {
   background-color: #269aff;
   color: white;
+}
+
+@media (min-width: 900px) {
+  .panel {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #59a4fc;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
 }
